@@ -13,6 +13,7 @@ Use the following steps.
     - _**import * as jsPDF from 'jspdf';**_
 
 4. Add the code following code/function in "app.component.ts" file.
+
     `downloadPdf() {`
     `const doc = new jsPDF();`
     `doc.text(20, 20, 'This is the default font.');`
@@ -38,6 +39,7 @@ Use the following steps.
   `}`
   
 5. Add the following code into "app.component.html" file.
+
     `<button type="button" class="btn btn-primary" (click)="downloadPdf()">Download PDF</button>`
 
 6. Run
@@ -45,4 +47,5 @@ Use the following steps.
 
 
 Here you go,
+
 **Best Luck**
